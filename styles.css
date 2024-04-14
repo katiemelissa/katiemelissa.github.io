@@ -1,0 +1,92 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f5c8f4; /* Default background color */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.gif-container {
+    margin-bottom: 20px;
+    border: 10px solid #fe8bd3; /* Border style (2px width, solid black color) */
+    padding: 2px; /* Optional: Add padding around the GIF */
+    margin-top: 10px; 
+    margin-right: 10px; 
+    margin-bottom: 0px; 
+}
+
+.question {
+    text-align: center;
+}
+
+h1 {
+    color: #000000;
+    font-size: 24px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#yesBtn {
+    background-color: #31493C;
+    color: white;
+}
+
+#noBtn {
+    background-color: #DB5461;
+    color: white;
+}
+
+#yesBtn2 {
+    background-color: #659B5E;
+    color: white;
+}
+
+#noBtn2 {
+    background-color: #DB5461;
+    color: white;
+}
+
+/* Styles for Page 2 */
+.page2 {
+    background-color: #ffcccc; /*will u go to prom */
+}
+
+/* Styles for Page 3 */
+.page3 {
+    background-color: #ccffcc; /* busy*/
+}
+
+/* Styles for Page 4 */
+.page4 {
+    background-color: #ccccff; /* yes prom */
+}
+
+/* Styles for Page 5 */
+.page5 {
+    background-color: #353532; /* no prom */
+}
+
+.gif-box {
+    background-color: #6781dc; /* Blue background color */
+    padding: 10px; /* Padding inside the box */
+    display: inline-block; /* Make the box size fit the content */
+
+}

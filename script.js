@@ -10,10 +10,10 @@ document.getElementById('yesBtn').addEventListener('click', function() {
 
     // Update the header and buttons
     document.querySelector('.question').innerHTML = `
-        <h1>Will you go to prom with me?</h1>
+        <h1>will you go to prom with me?</h1>
         <div class="buttons">
-            <button id="yesBtn2">Yes!</button>
-            <button id="noBtn2">No :(</button>
+            <button id="yesBtn2">yes!</button>
+            <button id="noBtn2">no :(</button>
         </div>
 
     `;
